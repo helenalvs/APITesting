@@ -6,7 +6,7 @@ import io.restassured.builder.ResponseSpecBuilder;
 import org.hamcrest.Matchers;
 import org.junit.BeforeClass;
 
-public class BaseTest implements Constants{
+public class BaseTest implements Constants {
     @BeforeClass
     public static void setUpBeforeClass() throws Exception {
         RestAssured.baseURI = APP_BASE_URL;
